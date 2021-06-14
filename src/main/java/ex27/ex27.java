@@ -4,7 +4,7 @@
  */
 package ex27;
 import java.util.Scanner;
-public class App 
+public class ex27 
 {
     public static void main(String[] args) 
     {
