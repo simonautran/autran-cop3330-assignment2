@@ -6,7 +6,7 @@ package ex36;
 import java.text.DecimalFormat;
 import java.util.ArrayList;
 import java.util.Scanner;
-public class App
+public class ex36
 {
     public static void main (String[] args)
     {
