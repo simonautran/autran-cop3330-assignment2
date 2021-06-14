@@ -15,7 +15,7 @@ public class ex31
         int heartrate = input.nextInt();
         System.out.println("Resting Pulse: 65        Age: 22\n");
         System.out.println("Intensity\t | Rate");
-        System.out.println("-------------|--------");
+        System.out.println("-------------|-------------");
         for (double i = 0.55; i < 1; i = i + .05) 
         {
             double bpm = (((220 - age) - heartrate) * i) + heartrate;
