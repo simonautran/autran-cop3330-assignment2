@@ -10,7 +10,7 @@ public class App {
         Scanner input = new Scanner(System.in);
         String rate = "0";
         while (rate.equals("0")) {
-            System.out.print("What is the rate of return? ");
+            System.out.print("What is the rate of return?");
             rate = input.nextLine();
             char[] arr = rate.toCharArray();
             for (int i = 0; i < arr.length; i++) {
@@ -23,6 +23,6 @@ public class App {
         }
         int Returnrate = Integer.parseInt(rate);
         int years = 72 / Returnrate;
-        System.out.println("It will take " + years + " years to double your initial investment.");
+        System.out.println("It will take "+years+" years to double your initial investment.");
     }
 }
