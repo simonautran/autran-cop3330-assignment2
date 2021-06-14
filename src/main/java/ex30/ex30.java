@@ -3,7 +3,7 @@
  *  Copyright 2021 Simon Autran
  */
 package ex30;
-public class App 
+public class ex30 
 {
     public static void main(String[] args) 
     {
@@ -11,8 +11,6 @@ public class App
         {
             for (int j = 1; j <= 12; j++) 
             {
-              int numberCell = i * j;
-                System.out.print(String.format("%5d", numberCell));
                 if (j <= 11) 
                 {
                 System.out.print("\t" + i * j);
