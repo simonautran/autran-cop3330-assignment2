@@ -4,7 +4,7 @@
  */
 package ex26;
 import java.util.Scanner;
-public class App extends PaymentCalculator {
+public class ex26 extends PaymentCalculator {
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
         System.out.print("What is your balance? ");
