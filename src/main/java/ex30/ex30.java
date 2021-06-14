@@ -3,8 +3,7 @@
  *  Copyright 2021 Simon Autran
  */
 package ex30;
-public class ex30 
-{
+public class ex30 {
     public static void main(String[] args) 
     {
         for (int i = 1; i <= 12; i++) 
