@@ -4,8 +4,10 @@
  */
 package ex31;
 import java.util.Scanner;
-public class App {
-    public static void main(String[] args) {
+public class ex31 
+{
+    public static void main(String[] args) 
+    {
         Scanner input = new Scanner(System.in);
         System.out.print("What is your age? ");
         int age = input.nextInt();
@@ -14,7 +16,8 @@ public class App {
         System.out.println("Resting Pulse: 65        Age: 22\n");
         System.out.println("Intensity\t | Rate");
         System.out.println("-------------|--------");
-        for (double i = 0.55; i < 1; i = i + .05) {
+        for (double i = 0.55; i < 1; i = i + .05) 
+        {
             double bpm = (((220 - age) - heartrate) * i) + heartrate;
             System.out.printf("%.0f%%\t\t\t | %.0f bpm\n", i * 100, bpm);
         }
